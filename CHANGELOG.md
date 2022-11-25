@@ -1,8 +1,12 @@
 HumHub Changelog
 ================
 
-1.12.2 (Unreleased)
+1.12.3 (Unreleased)
 -------------------
+- Fix #5928: Invalid Mailer DSN breaks whole application
+
+1.12.2 (November 11, 2022)
+--------------------------
 - Fix #5851: Admin User Settings cannot saved 
 - Fix #5856: Fix SMTPS Config Migration
 - Fix #5854: Don't validate user language on approve
@@ -10,6 +14,7 @@ HumHub Changelog
 - Fix #5877: Fix wrong empty profile stream message
 - Fix #5874: Fix adding licence key after removing it from marketplace
 - Enh #5891: Improve select2 width on people filters
+- Enh #5906: Allow Space Invites with empty originator
 - Fix #5909: Fix optional parameter on ldap user searching
 
 1.12.1 (August 15, 2022)
